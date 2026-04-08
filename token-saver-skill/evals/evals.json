@@ -1,0 +1,23 @@
+{
+  "skill_name": "token-saver",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "我每次用Claude写代码都花很多token，对话几轮之后就变慢了。帮我优化一下我的使用方式，我主要做Python后端开发。",
+      "expected_output": "The response should provide specific, actionable token-saving strategies tailored to Python backend development. It should cover prompt optimization, context management, and conversation management with concrete examples. Should reference relevant strategies from the skill.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "We're building a customer support chatbot using GPT-4. Our monthly API bill is $5,000 and we need to cut it by at least 50%. The bot handles about 10,000 conversations per day, many of which are repetitive FAQ-type questions. What strategies should we implement?",
+      "expected_output": "The response should provide a prioritized cost reduction plan covering: semantic caching for repetitive queries, model routing (cheap model for FAQs, expensive for complex), prompt caching, output length control, and RAG optimization. Should include specific techniques and expected savings percentages.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Here's my prompt, please optimize it to use fewer tokens while keeping the same output quality:\n\n'You are a very experienced and knowledgeable data analyst with over 15 years of experience working with large datasets. I have a CSV file that contains sales data from our e-commerce platform. The file has columns for order_id, customer_id, product_name, category, price, quantity, order_date, and shipping_address. I would like you to please analyze this data and provide me with insights about our top-selling products, monthly revenue trends, and customer purchasing patterns. Could you also create some visualizations if possible? Please be very thorough and detailed in your analysis.'",
+      "expected_output": "The response should provide an optimized version of the prompt that is significantly shorter (50%+ token reduction) while preserving all essential information and instructions. Should demonstrate the specific optimization techniques (removing filler, structuring, specifying output format).",
+      "files": []
+    }
+  ]
+}
